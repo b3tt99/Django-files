@@ -6,6 +6,6 @@ class UserReg(forms.Form):
     email = forms.CharField(max_length=100)
     password = forms.CharField()
 
-class Userlogin(forms.Form)
+class Userlogin(forms.Form):
     username = forms.CharField(max_length=100)
     user_password = forms.CharField()
