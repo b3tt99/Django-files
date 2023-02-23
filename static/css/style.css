@@ -1,0 +1,17 @@
+body{
+    background-color: burlywood;
+}
+
+.btn{
+    background-color: darkslategray;
+    color: white;
+    height: 50px;
+    width: 300px;
+
+}
+.div1{
+    text-align: center;
+    margin-top: 50px;
+    
+
+}

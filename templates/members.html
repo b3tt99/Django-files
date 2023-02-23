@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    {% load static %}
+       <link rel="stylesheet" href="{% static "css/style.css" %}">
 </head>
 <body>
-
+<div class="div1">
 <h1>Members Page</h1>
 
 <form action="" method="POST">
     {% csrf_token %}
     {{ member_form.as_p }}
 
-    <input type="submit" name="members" value="Register Members">
+    <input type="submit" name="members" value="Register Members" class="btn">
 
 </form>
 {% if submit_members == "Register Members" %}
@@ -25,6 +27,6 @@
 {% endif %}
 
 
-
+</div>
 </body>
 </html>
