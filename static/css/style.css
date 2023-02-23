@@ -1,9 +1,9 @@
 body{
-    background-color: burlywood;
+    background-color: black;
 }
 
 .btn{
-    background-color: darkslategray;
+    background-color: black;
     color: white;
     height: 50px;
     width: 300px;
@@ -11,7 +11,19 @@ body{
 }
 .div1{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
+    background-color: darkslategrey;
+    width: 450px;
+    margin-left: 300px;
+    height: 350px;
+    padding: 20px;
+    color: black;
+
     
 
+}
+
+input{
+    color: black;
+    background-color: white;
 }
